@@ -5,7 +5,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.navbar}>
         <ul>
-          <li><p>Lexaly Dev</p></li>
+          <li><p>Lexaly</p></li>
           <li><a href="/">Welcome</a></li>
         </ul>
       </div>
