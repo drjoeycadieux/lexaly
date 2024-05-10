@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className={styles.header}>
         <p>
-          Lexaly Dev
+          Lexaly
         </p>
         <a href="#" className={styles.button}>Get Started</a>
       </div>
