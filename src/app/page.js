@@ -1,7 +1,5 @@
 import styles from "./page.module.css";
 
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -10,8 +8,7 @@ export default function Home() {
       </div>
       <div className={styles.navbar}>
         <ul>
-          <li><p>Lexaly</p></li>
-          <li><a href="/">Welcome</a></li>
+          <li><p>Lexaly AI</p></li>
         </ul>
       </div>
 
