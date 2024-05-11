@@ -131,6 +131,26 @@
   text-decoration: underline;
 }
 
+.contact h1 {
+  text-align: center;
+  color: rgb(13, 31, 54);
+}
+
+.linknav {
+  color: gray;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.linknav:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.info {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .p {
     width: 100%;
