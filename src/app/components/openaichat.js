@@ -5,7 +5,7 @@
 import React, { useState } from 'react';
 import { OpenAI } from 'openai';
 
-const openai = new OpenAI('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');
+const openai = new OpenAI('OPENAI_KEY');
 
 const Chat = () => {
     const [messages, setMessages] = useState([]);
