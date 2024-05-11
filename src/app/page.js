@@ -15,7 +15,7 @@ export default function Home() {
           Lexaly
         </p>
         <h3>
-          Discover LexaLy AI, your essential language companion for the modern age, empowering you to excel in today's dynamic world.
+          Discover Lexaly AI, your essential language companion for the modern age, empowering you to excel in today's dynamic world.
         </h3>
         <a href="#" className={styles.button}>Get Started</a>
       </div>
