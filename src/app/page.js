@@ -1,5 +1,7 @@
 import styles from "./page.module.css";
 
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -36,6 +38,9 @@ export default function Home() {
           <p>
           &copy; 2024 Lexaly AI. All Rights Reserved. <strong className={styles.contact}>Contact: Joey@techtack-technologies.info</strong>
         </p>
+        <div className={styles.links}>
+          <Link className={styles.para} href="/terms-of-services">Terms of Services</Link>
+        </div>
       </div>
     </main>
   );

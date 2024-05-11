@@ -123,6 +123,15 @@
   color: white;
 }
 
+.para {
+  color: gray;
+  text-decoration: none;
+}
+
+.para:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 @media (max-width: 768px) {
   .p {
