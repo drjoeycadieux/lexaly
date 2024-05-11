@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 .navbar {
   padding: 8px;
   background-color: rgb(13, 31, 54);
@@ -28,6 +30,18 @@
 
 .navbar ul li a:hover {
     color: lightslategray;
+}
+
+.alert {
+  padding: 4px;
+  background-color: blueviolet;
+}
+
+.alert p {
+   color: white;
+   text-align: center;
+   margin: 5px;
+   font-family: sans-serif;
 }
 
 .contact {

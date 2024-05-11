@@ -3,6 +3,9 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className={styles.alert}>
+        <p><i class="bi bi-info-circle"></i>  <strong>FYI</strong>   We will launch very soon our first product Lexaly AI!</p>
+      </div>
       <div className={styles.navbar}>
         <ul>
           <li><p>Lexaly</p></li>
