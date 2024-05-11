@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.alert}>
-        <p><i class="bi bi-info-circle"></i>  <strong>FYI</strong>   We will launch very soon our first product Lexaly AI!</p>
+        <p><strong>FYI</strong> We will launch very soon our first product Lexaly AI!</p>
       </div>
       <div className={styles.navbar}>
         <ul>
@@ -39,7 +39,7 @@ export default function Home() {
           &copy; 2024 Lexaly AI. All Rights Reserved. <strong className={styles.contact}>Contact: Joey@techtack-technologies.info</strong>
         </p>
         <div className={styles.links}>
-          <Link className={styles.para} href="/terms-of-services">Terms of Services</Link>
+          <Link className={styles.para} href="/terms-of-services/">Terms of Services</Link>
         </div>
       </div>
     </main>

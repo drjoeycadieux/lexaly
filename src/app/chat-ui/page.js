@@ -7,7 +7,7 @@ export default function Home() {
 
     const sendMessage = async () => {
         // Send the user's message to the OpenAI API
-        const response = await axios.post('/api/chat', { text: inputText });
+        const response = await axios.post('/chat', { text: inputText });
 
         // Add the user's message and the AI's response to the messages array
         setMessages(prevMessages => [
