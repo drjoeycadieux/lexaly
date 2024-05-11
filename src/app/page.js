@@ -23,7 +23,9 @@ export default function Home() {
       <div className={styles.container}>
         <h1>Welcome to Lexaly AI</h1>
         <p>Master language skills effortlessly with Lexaly AI.</p>
+
         <p>Create high-quality content, refine your style, and communicate with confidence.</p>
+
         <p>Join us today and unlock your linguistic potential!</p>
       </div>
 
