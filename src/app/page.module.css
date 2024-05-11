@@ -47,7 +47,7 @@
 
 .header h3 {
   color: lightgray;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .button {
@@ -78,13 +78,12 @@
 }
 
 .container {
-    padding: 26px;
+    padding: 30px;
 }
 
 .container p {
    text-align: center;
    font-size: 23px;
-   justify-content: space-between;
 }
 
 
