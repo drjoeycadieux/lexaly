@@ -15,7 +15,7 @@ export default function Home() {
           Lexaly
         </p>
         <h3>
-          "Welcome to LexaLy AI, your ultimate language solution for the digital era! LexaLy AI, built on the latest Next.js framework, is your indispensable tool for mastering language skills in today's fast-paced world.
+          Discover LexaLy AI, your essential language companion for the modern age, empowering you to excel in today's dynamic world.
         </h3>
         <a href="#" className={styles.button}>Get Started</a>
       </div>
