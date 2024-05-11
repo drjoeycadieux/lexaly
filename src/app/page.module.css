@@ -39,6 +39,11 @@
     padding: 125px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+  position: relative;
+  z-index: 1;
+  border-bottom-left-radius: 35% 29px;
+  border-bottom-right-radius: 35% 29px;
 }
 
 .header p {
