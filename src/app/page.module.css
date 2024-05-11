@@ -54,8 +54,8 @@
 
   position: relative;
   z-index: 1;
-  border-bottom-left-radius: 35% 29px;
-  border-bottom-right-radius: 35% 29px;
+  border-bottom-left-radius: 15% 39px;
+  border-bottom-right-radius: 15% 39px;
 }
 
 .header p {
