@@ -1,11 +1,8 @@
-'use client'
-
-
 // components/Chat.js
 import React, { useState } from 'react';
 import { OpenAI } from 'openai';
 
-const openai = new OpenAI('');
+const openai = new OpenAI('YOUR_OPENAI_API_KEY');
 
 const Chat = () => {
     const [messages, setMessages] = useState([]);
