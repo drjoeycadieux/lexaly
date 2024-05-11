@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.alert}>
-        <p><strong>FYI</strong> We will launch very soon our first product Lexaly AI!</p>
+        <p><strong>FYI</strong> We will launch much later than what is supposed to be our first product Lexaly AI!</p>
       </div>
       <div className={styles.navbar}>
         <ul>
