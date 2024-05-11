@@ -1,6 +1,7 @@
-// pages/index.js
+'use client'
+
 import Head from 'next/head';
-import OpenaiChat from '../components/openaichat'
+import OpenaiChat from '../components/OpenaiChat';
 
 export default function Home() {
     return (

@@ -1,7 +1,11 @@
+'use client'
+
+
+// components/Chat.js
 import React, { useState } from 'react';
 import { OpenAI } from 'openai';
 
-const openai = new OpenAI('YOUR_OPENAI_API_KEY');
+const openai = new OpenAI('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');
 
 const Chat = () => {
     const [messages, setMessages] = useState([]);
@@ -17,15 +21,15 @@ const Chat = () => {
             const response = await openai.complete({
                 engine: 'davinci-codex',
                 prompt: input,
-                maxTokens: 150,
+                max_tokens: 150,
                 temperature: 0.7,
-                topP: 1.0,
-                frequencyPenalty: 0.0,
-                presencePenalty: 0.0,
-                stop: ['\n']
+                top_p: 1.0,
+                frequency_penalty: 0.0,
+                presence_penalty: 0.0,
+                stop: '\n'
             });
 
-            const botResponse = response.data.choices[0].text.trim();
+            const botResponse = response.choices[0].text.trim();
             setMessages([...messages, { text: botResponse, user: 'Bot' }]);
         } catch (error) {
             console.error('Error generating response from OpenAI:', error);
