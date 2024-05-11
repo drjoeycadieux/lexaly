@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { askOpenAI } from '../utils/openai';
 
-function Chat() {
+function chat() {
     const [question, setQuestion] = useState('');
     const [answer, setAnswer] = useState('');
 
@@ -24,4 +24,4 @@ function Chat() {
     );
 }
 
-export default Chat;
+export default chat;
