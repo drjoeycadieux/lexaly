@@ -31,7 +31,7 @@ export default function Home() {
 
       <div className={styles.footer}>
           <p>
-          &copy; 2024 Lexaly Dev. All Rights Reserved.
+          &copy; 2024 Lexaly Dev. All Rights Reserved. <strong className={styles.contact}>Contact: Joey@techtack-technologies.info</strong>
         </p>
       </div>
     </main>
