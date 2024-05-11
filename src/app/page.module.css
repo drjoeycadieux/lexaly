@@ -78,12 +78,13 @@
 }
 
 .container {
-    padding: 25px;
+    padding: 26px;
 }
 
-.container p > h1 {
+.container p {
    text-align: center;
    font-size: 23px;
+   justify-content: space-between;
 }
 
 
