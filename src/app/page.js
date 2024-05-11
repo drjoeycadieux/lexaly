@@ -15,59 +15,24 @@ export default function Home() {
           Lexaly
         </p>
         <h3>
-          Join the conversation revolution with Lexaly AI and redefine the way you engage with your audience. Whether you're building chatbots, virtual assistants, or intelligent customer support systems, Lexaly is your trusted partner in the era of conversational AI. Start your journey today and unlock limitless possibilities with Lexaly.
+          "Welcome to LexaLy AI, your ultimate language solution for the digital era! LexaLy AI, built on the latest Next.js framework, is your indispensable tool for mastering language skills in today's fast-paced world.
         </h3>
         <a href="#" className={styles.button}>Get Started</a>
       </div>
 
       <div className={styles.container}>
-        <h1>Discover the Future of Conversational AI with Lexaly</h1>
-        <div>
-          <p>
-            Welcome to Lexaly, where innovation meets seamless communication. Lexaly AI is your cutting-edge solution for natural and engaging conversations. Harnessing the power of advanced language processing and machine learning technologies, Lexaly empowers businesses and individuals alike to unlock the full potential of conversational interfaces.
-          </p>
-        </div>
-        <div>
-          <p>
-            At Lexaly, we understand the importance of meaningful interactions. Whether you're looking to enhance customer support, streamline workflows, or create dynamic chat experiences, our AI platform is designed to adapt and evolve with your needs.
-
-            Key features of Lexaly AI include:
-          </p>
-        </div>
-        <div>
-          <li><strong>Natural Language Understanding: </strong>Say goodbye to scripted responses. Lexaly comprehends natural language queries, enabling fluid and authentic conversations with users.</li>
-        </div>
-        <br />
-        <div>
-          <li>
-            <strong>Contextual Understanding:</strong> From context switching to follow-up questions, Lexaly maintains context throughout the conversation, providing a personalized experience for every interaction.
-          </li>
-        </div>
-        <br />
-        <div>
-          <li>
-            <strong> Multi-Platform Integration:</strong> Seamlessly integrate Lexaly AI into your website, mobile app, messaging platform, or voice-enabled device, ensuring a consistent experience across all channels.
-          </li>
-        </div>
-        <br />
-        <div>
-          <li>
-            <strong>Scalability and Customization:</strong> Whether you're a small startup or a global enterprise, Lexaly scales to meet your needs. Tailor the AI to your specific industry, vocabulary, and use cases for maximum efficiency.
-          </li>
-        </div>
-        <br />
-        <div>
-          <li>
-            <strong>Insightful Analytics:</strong> Gain valuable insights into user behavior and interaction patterns with Lexaly's comprehensive analytics dashboard. Identify trends, optimize workflows, and drive business growth with data-driven decision-making.
-          </li>
-        </div>
-        <br />
-        <div>
-          <li>
-            <strong>Security and Compliance: </strong>Rest easy knowing that your data is protected with industry-leading security protocols and compliance standards. Lexaly AI prioritizes data privacy and confidentiality at every step.
-          </li>
-        </div>
+        <h1>Welcome to LexaLy AI</h1>
+        <p>Your ultimate language solution for the digital era!</p>
+        <p>LexaLy AI, built on the latest Next.js framework, is your indispensable tool for mastering language skills in today's fast-paced world.</p>
+        <p>Harnessing the power of advanced artificial intelligence, LexaLy AI offers a comprehensive suite of language services tailored to elevate your writing, speaking, and comprehension abilities.</p>
+        <p>Whether you're a student, professional, or language enthusiast, LexaLy AI is your go-to platform for achieving linguistic excellence effortlessly.</p>
+        <p>With LexaLy AI, you can effortlessly craft high-quality content, refine your writing style, and express yourself with clarity and confidence. Our user-friendly interface and state-of-the-art algorithms empower you to create captivating essays, compelling stories, and persuasive arguments in record time.</p>
+        <p>But LexaLy AI goes beyond mere writing assistance. Our platform provides robust language analysis tools to help you grasp the nuances of any text, pinpoint grammar and spelling errors, and enhance the overall quality of your writing.</p>
+        <p>Moreover, with our language translation feature, you can transcend linguistic barriers and connect with individuals worldwide.</p>
+        <p>Whether you seek to excel academically, advance professionally, or simply communicate more effectively, LexaLy AI is your trusted partner for unlocking your linguistic potential.</p>
+        <p>Join the thriving community of users who rely on LexaLy AI to accomplish their language aspirations – sign up today and embrace the future of communication!</p>
       </div>
+
 
       <div className={styles.footer}>
           <p>
