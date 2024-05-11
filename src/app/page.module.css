@@ -45,6 +45,11 @@
     font-weight: bold;
 }
 
+.header h3 {
+  color: lightgray;
+  font-weight: 300;
+}
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -76,7 +81,7 @@
     padding: 25px;
 }
 
-.container p {
+.container p > h1 {
    text-align: center;
    font-size: 23px;
 }
