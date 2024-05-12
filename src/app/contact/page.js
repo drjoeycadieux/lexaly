@@ -24,9 +24,9 @@ export default function Page() {
                         </p>
                     </div>
                     <div>
-                        <p>
+                        {/* <p>
                             <strong>How to Join:</strong> Office hours will be conducted virtually via Zoom. The meeting link will be shared with all team members prior to the scheduled time. If you're not a part of the team but would like to join, please reach out to [insert contact information] for access.
-                        </p>
+                        </p> */}
                     </div>
                     <div>
                         <p>
