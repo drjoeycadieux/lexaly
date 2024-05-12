@@ -17,7 +17,7 @@ export default function Page() {
                 <h1>Lexaly AI Office Hours</h1>
                 <hr />
                 <div className={styles.info}>
-                    <p><strong>Availability:</strong> Mondays and Wednesdays, 10:00 AM - 12:00 PM (Pacific Time)</p>
+                    <p><strong>Availability:</strong> Mondays and Wednesdays, 10:00 AM - 12:00 PM (Eastern Standard Time)</p>
                     <div>
                         <p>
                             <strong>Purpose:</strong>Lexaly AI Office Hours are dedicated to providing support, guidance, and answering any questions you may have regarding our AI platform, its features, integrations, or any related topics.
