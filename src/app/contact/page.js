@@ -2,6 +2,9 @@ import styles from '../page.module.css';
 
 import Link from 'next/link';
 
+//Components
+import Alerts from '../components/Alerts';
+
 
 export default function Page() {
     return (
@@ -13,6 +16,7 @@ export default function Page() {
                     <Link className={styles.linknav} href="/contact/">Contact</Link>
                 </ul>
             </div>
+            <Alerts />
             <div className={styles.contact}>
                 <h1>Lexaly AI Office Hours</h1>
                 <hr />
