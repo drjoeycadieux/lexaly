@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Lexaly AI",
-  description: "Lexaly Platform AI.",
+  description: "Lexaly AI Platform.",
 };
 
 export default function RootLayout({ children }) {
