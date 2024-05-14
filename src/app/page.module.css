@@ -62,7 +62,7 @@
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
 }
 
@@ -105,10 +105,12 @@
 .container p {
    text-align: center;
    font-size: 23px;
+   color: white;
 }
 
 .container h1 {
   text-align: center;
+  color: white;
 }
 
 
@@ -134,7 +136,7 @@
 
 .contact h1 {
   text-align: center;
-  color: rgb(13, 31, 54);
+  color: white;
 }
 
 .linknav {
@@ -150,6 +152,7 @@
 
 .info {
   text-align: center;
+  color: lightgrey;
 }
 
 @media (max-width: 768px) {

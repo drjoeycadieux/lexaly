@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className={styles.header}>
         <p>
-          Lexaly
+          Welcome to our AI Intelligence.
         </p>
         <h3>
           Discover Lexaly AI, your essential language companion for the modern age, empowering you to excel in today's dynamic world.
