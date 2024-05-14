@@ -2,6 +2,9 @@ import styles from "./page.module.css";
 
 import Link from 'next/link'
 
+// Components
+import SearchInput from "./components/SearchInput";
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -39,6 +42,7 @@ export default function Home() {
           <p>
           &copy; 2024 Lexaly AI. All Rights Reserved. <strong className={styles.contact}>Contact: Joey@techtack-technologies.info</strong>
         </p>
+        <SearchInput />
       </div>
     </main>
   );
