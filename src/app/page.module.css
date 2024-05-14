@@ -66,6 +66,45 @@
     font-weight: bold;
 }
 
+ @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .header p {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+     @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .header h3 {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+     @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .button {
+        animation: fadeIn 1s ease-in-out;
+    }
+
 .header h3 {
   color: lightgray;
   font-weight: 500;
