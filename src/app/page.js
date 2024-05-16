@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Link from 'next/link'
 
 // Components
-import SearchInput from "./components/SearchInput";
+// import SearchInput from "./components/SearchInput";
 
 export default function Home() {
   return (
@@ -16,6 +16,9 @@ export default function Home() {
           <li><p>Lexaly AI</p></li>
           <Link className={styles.linknav} href="/">Home</Link>
           <Link className={styles.linknav} href="/contact/">Contact</Link>
+          <Link className={styles.linknav} href="/openchat/">OpenChat</Link>
+          <Link className={styles.linknav} href="/search/">Search</Link>
+          {/* <SearchInput /> */}
         </ul>
       </div>
 
@@ -42,7 +45,6 @@ export default function Home() {
           <p>
           &copy; 2024 Lexaly AI. All Rights Reserved. <strong className={styles.contact}>Contact: Joey@techtack-technologies.info</strong>
         </p>
-        <SearchInput />
       </div>
     </main>
   );

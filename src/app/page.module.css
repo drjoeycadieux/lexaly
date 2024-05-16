@@ -194,6 +194,17 @@
   color: lightgrey;
 }
 
+.search {
+  text-align: center;
+}
+
+.search p {
+  font-family: sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .container p {
     width: 100%;
