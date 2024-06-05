@@ -25,9 +25,6 @@ export default function Home() {
           <Link className={styles.linknav} href="/contact/">
             Contact
           </Link>
-          <Link className={styles.linknav} href="/openchat/">
-            OpenChat
-          </Link>
           <Link className={styles.linknav} href="/search/">
             Search
           </Link>
